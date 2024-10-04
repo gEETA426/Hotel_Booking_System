@@ -1,0 +1,50 @@
+.hotel-details {
+    max-width: 950px;
+    margin: 1px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .hotel-image {
+    width: 300px;
+    height: 500px;
+    border-radius: 8px;
+  }
+  
+  .hotel-details h2 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+    color: #333;
+  }
+  
+  .hotel-details p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .hotel-rating {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .hotel-rating span {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #ff9800;
+  }
+  
+  .book-now-button {
+    display: inline-block;
+    padding: 4px 12px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #006Ce4;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }

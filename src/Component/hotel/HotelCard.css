@@ -1,0 +1,51 @@
+.hotel-card {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.2s;
+  }
+  
+  
+  .hotel-images {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  .hotel-inf {
+    padding: 10px;
+    flex: 1;
+  }
+  
+  .hotel-inf h1 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+    text-align: left;
+  }
+  
+  .hotel-inf h5 {
+    margin: 5px 0;
+    color: #666;
+    text-align: left;
+  }
+  .hotel-inf h6{
+    text-align: left;
+  }
+  
+  .hotel-inf p{
+   text-align: left;
+  }
+  
+  
+  .viewdetails{
+        cursor: pointer;
+        width: 150px;
+        height: 100px;
+  }
